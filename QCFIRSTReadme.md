@@ -9,3 +9,4 @@
 ### Course list displays offered classes 
 ### Course management page is accessed by instructor only
 ### Students can search classes fromt the enrollment page's search option
+### Course Management,Enrollment and Search pages will be implemented using backend.
