@@ -24,9 +24,7 @@ Created Login,index,course-list and course-management page. Added html and css t
 * Login in page requires the user to enter their username(email) and the password.
 * Enrollment page is for students to search for their desired course and it will navigate to the search page.
 * Search page is where the students see the search results for the classes they searched for and they can enroll in those classes using enroll button. After clicking on enroll button it will let the user know if the classes has been succesfully enrolled or not.
-
-
-Course list displays offered classes so the students can choose the desired classes.  
+* Course list displays offered classes so the students can choose the desired classes.  
 ### Rest of the pages will be reacheble once login and signup page funtionality is implemented
 ### Course list displays offered classes 
 ### Course management page is accessed by instructor only
