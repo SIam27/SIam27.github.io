@@ -1,160 +1,106 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Course Management</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<html lang = "en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Course Management</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body class="d-flex flex-column justify-content-between h-100vh">
-    <div class="wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 d-flex align-items-center flex-row">
-                    <img src="/QCFIRST/qcfirst.png" width="110" class="m-3 align-self-start">
-                    <div class="flex-grow-1 text-center pr-5">
-                        <h3 class="mb-4 pr-5">Course Management</h3>
-                    </div>
-                </div>
-            </div>
+  <div class="wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center flex-row">
+          <img src="../71745582d6714ee3967ead38be6519ad.png" width="110" class="m-3 align-self-start" alt="qcfirst logo">
+          <div class="flex-grow-1 text-center pr-5">
+            <h3 class="mb-4 pr-5">Course Management</h3>
+          </div>
         </div>
-        <div class="container">
-            <div class="row justify-content-between my-5">
-                <div class="col-md-6">
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <div class="card-title mb-4 font-weight-bold">
-                                Add
-                            </div>
-                            <form>
-                                <div class="form-group">
-                                    <label for="name">Course name:</label>
-                                    <input type="text" id="course-name" name="course-name" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="dep">Department</label>
-                                    <select name="dep" id="dep" class="form-control">
-                                        <option value="physics">PHYS</option>
-                                        <option value="math">MATH</option>
-                                        <option value="chemistry">CHEM</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="course-num">Course number:</label>
-                                    <input type="text" id="course-num" name="course-num" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="capacity">Capacity:</label>
-                                    <input type="text" id="cap" name="capacity" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="semester">Semester</label>
-                                    <select name="semester" id="semester" class="form-control">
-                                        <option value="spring">Spring</option>
-                                        <option value="fall">Fall</option>
-                                        <option value="summer">Summer</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="date">Enrollment date:</label>
-                                    <input type="date" id="date" name="enrollment date" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="des">Enrollment date:</label>
-                                    <textarea id='des' class="form-control">Course description</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-outline-success btn-rounded" type="submit">Create</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <div class="card-title mb-4 font-weight-bold">
-                                Remove
-                            </div>
-                            <form>
-                                <div class="form-group">
-                                    <label for="name">Course name:</label>
-                                    <input type="text" id="course-name" name="course-name" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="dep">Department</label>
-                                    <select name="dep" id="dep" class="form-control">
-                                        <option value="physics">PHYS</option>
-                                        <option value="math">MATH</option>
-                                        <option value="chemistry">CHEM</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="course-num">Course number:</label>
-                                    <input type="text" id="course-num" name="course-num" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="semester">Semester</label>
-                                    <select name="semester" id="semester" class="form-control">
-                                        <option value="spring">Spring</option>
-                                        <option value="fall">Fall</option>
-                                        <option value="summer">Summer</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-outline-danger btn-rounded" type="submit">Remove</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="card mt-4">
-                        <div class="card-body bg-light">
-                            <div class="card-title mb-4 font-weight-bold">
-                                My roaster
-                            </div>
-                            <form action="">
-                                <div class="form-group">
-                                    <label for="select-course">Select course:</label>
-                                    <select name="select-course" id="course" class="form-control w-50">
-                                        <option>CSCI 111</option>
-                                        <option>CSCI 211</option>
-                                        <option>CSCI 355</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-outline-primary btn-rounded">View roaster</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <footer class="bg-light mt-5 border">
-        <div class="container">
-        <div class="row justify-content-between align-items-center pt-3">
-            <div class="col-md-3">
-            <p>2021 copyright</p>
+    <div class="container">
+      <div class="row justify-content-between my-5">
+        <div class="col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="card-title mb-4 font-weight-bold">
+                Add
+              </div>
+              <form>
+                <div class="form-group">
+                  <label>Course name:</label> <input type="text" id="course-name" name="course" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Department</label> <select name="dep" id="department" class="form-control">
+                    <option value="physics">
+                      PHYS
+                    </option>
+                    <option value="math">
+                      MATH
+                    </option>
+                    <option value="chemistry">
+                      CHEM
+                    </option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="course-num">Course number:</label> <input type="text" id="course-num" name="course" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Capacity:</label> <input type="text" id="cap" name="capacity" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="semester">Semester</label> <select name="sem" id="semester" class="form-control">
+                    <option value="spring">
+                      Spring
+                    </option>
+                    <option value="fall">
+                      Fall
+                    </option>
+                    <option value="summer">
+                      Summer
+                    </option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="date">Enrollment date:</label> <input type="date" id="date" name="enrollment date" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="des">Enrollment date:</label> 
+                  <textarea id='des' class="form-control">Course description</textarea>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-outline-success btn-rounded" type="submit">Create</button>
+                </div>
+              </form>
             </div>
-           <div class="col-md-3">
-            <p class='ml-0'><a href="/QCFIRST/index.html" class="text-muted">Home</a></p>
-            </div> 
-            <div class="col-md-3">
-            <div class="d-flex justify-content-end">
-                <p class='ml-0'><https://a href="www.facebook.com" class="text-muted">Facebook</a></p>
-                <p  class='ml-2'><https://a href="www.twitter.com" class="text-muted">Twitter</a></p>
-                <p  class='ml-2'><https://a href="www.linkedin.com" class="text-muted">LinkedIn</a></p>
-            </div>
-            </div>
+          </div>
         </div>
+        <div class="col-md-6">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="card-title mb-4 font-weight-bold">
+                Remove
+              </div>
+              <form>
+                <div class="form-group">
+                  <label>Course name:</label> <input type="text" id="name-remove" name="course" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Department</label> <select name="dep-rem" id="department-remove" class="form-control">
+                    <option value="physics">
+                        PHYS
+                    </option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
