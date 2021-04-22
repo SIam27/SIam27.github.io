@@ -29,7 +29,7 @@ Created Login,index,course-list and course-management page. Added html and css t
 * Course management lets to add or remove a course
 * Instructors has the access to roaster for each classes
 * Roaster includes student name, ID and email and will be created dynamicly for each class
-* 
+
 ### Rest of the pages will be reacheble once login and signup page funtionality is implemented
 ### Course list displays offered classes 
 ### Course management page is accessed by instructor only
