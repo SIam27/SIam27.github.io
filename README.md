@@ -28,13 +28,17 @@ Created Login,index,course-list and course-management page. Added html and css t
 * Course management page is accessed by instructor only
 * Course management lets to add or remove a course
 * Instructors has the access to roaster for each classes
-* Roaster includes student name, ID and email and will be created dynamicly for each class
-
-### Rest of the pages will be reacheble once login and signup page funtionality is implemented
-### Course list displays offered classes 
-### Course management page is accessed by instructor only
-### Students can search classes fromt the enrollment page's search option
-### Course Management,Enrollment and Search pages will be implemented using backend.
-
-### Visual design summary
-Evey pages started from wireframing. From there, we created visual design for each page and then created the html files. The goal was to create simple html pages from the visual designs created earlier. As each page was getting its shape, some modifications needed to be done to the visual designs for functionality and requirements. We have recieved feedback from our professor in each step and improved the pages. Current pages are still underconstruction and functionalities are getting added regularly.  
+* Roster includes student name, ID and email and will be created dynamicly for each class
+### Link of all the pages and features:
+* Home Page : https://siam27.github.io/QCFIRST/index.html
+* Course List Page : https://siam27.github.io/QCFIRST/CourseList.html
+* SignUp Page : https://siam27.github.io/QCFIRST/SignUp.html
+* Login Page : https://siam27.github.io/QCFIRST/Login.html
+* Course-Management Page : https://siam27.github.io/QCFIRST/course-management.html
+* Enrollment Page: https://siam27.github.io/QCFIRST/enrollment.html
+* Search Page : https://siam27.github.io/QCFIRST/search.html
+* Roster Page: https://siam27.github.io/QCFIRST/roster.html
+### Link to visual designs: 
+https://github.com/SIam27/qcfirst/tree/main/QCFirst%20visual%20designs
+#### Visual design VS Final outcome
+Evey pages started from wireframing. From there, we created visual design for each page and then created the html files. The goal was to create simple html pages from the visual designs created earlier. As each page was getting its shape, some modifications needed to be done to the visual designs for functionality and requirements. We Were missing some pages from our visual design such as the search page and the roster page which we added later in order to fullfill te requirements. Overall we have all the pages ready, we just need to connect all of them using backend in the upcoming deliverale.
